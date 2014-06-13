@@ -20,7 +20,7 @@
 
         body {
             padding: 1em;
-             font: 400 1em/1.7 Arial, sans-serif;
+             font: 400 1em/1.7 "Georgia", "Times New Roman", Times,"Songti SC","SimSun", sans-serif;
             -webkit-font-smoothing: subpixel-antialiased;
             -moz-osx-font-smoothing: grayscale;
             -webkit-text-size-adjust: 100%;
@@ -43,9 +43,13 @@
         h1 {
              font-size: 7.5em;
              line-height: 1;
-             margin-bottom: .8em;
+             margin-bottom: 1em;
              text-align: center;
              text-transform: uppercase;
+        }
+
+        h1 span.serif {
+            letter-spacing: 10px;
         }
 
         h1 span.open-sans {
@@ -203,7 +207,7 @@
 <body>
     <article>
         <h1><span class="serif">Good</span> <br><span class="open-sans">Google Fonts</span></h1>
-        <div class="title"><span class="">“The serifed typeface is a priest,</span> <span class="open-sans">the sans is a hacker”</span></div>
+        <div class="title"><span class="serif">“The serifed typeface is a priest,</span> <span class="open-sans">the sans is a hacker”</span></div>
 
         <h2 class="serif">Serif</h2>
 
@@ -294,6 +298,7 @@
                 <li><a href="http://blog.justfont.com/2014/06/google-fonts-2/">Google fonts 的字體（sans-serif 篇）</a></li>
             </ul>
         </p>
+        <p>(By <a href="http://huangyang.me">HuangYang</a>)</p>
     </footer>
     </body>
 </html>
